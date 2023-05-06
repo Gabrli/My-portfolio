@@ -1,7 +1,7 @@
 #                   My portfolio
 
 # Live site
-https://gabrieldeveloper.gabrys564.repl.co/#ab-sec
+https://gabrieldeveloper.gabrys564.repl.co/
 
 # About
 
