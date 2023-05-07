@@ -1,4 +1,4 @@
-#################  My portfolio
+#  My portfolio
 
 # Live site
 https://gabrieldeveloper.gabrys564.repl.co/
