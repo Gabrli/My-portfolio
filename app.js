@@ -1,23 +1,23 @@
-const BtnProjects = document.querySelector('.btn-project')
-const BtnModalProjectClose = document.querySelector('.project-btn-close')
-const ProjectsModal = document.querySelector('.modal-project-container')
-const BtnContact = document.querySelector('.btn-contact')
-const ContactModal = document.querySelector('.modal-contact-container')
-const ContactBtnClose = document.querySelector('.modal-btn-close-contact')
-const BtnEmail = document.querySelector('#email-btn')
+const btnProjects = document.querySelector('.btn-project')
+const btnModalProjectClose = document.querySelector('.project-btn-close')
+const projectsModal = document.querySelector('.modal-project-container')
+const btnContact = document.querySelector('.btn-contact')
+const contactModal = document.querySelector('.modal-contact-container')
+const contactBtnClose = document.querySelector('.modal-btn-close-contact')
+const btnEmail = document.querySelector('#email-btn')
 
 
-const ShowModalContact = () => {
-    ContactModal.classList.add('modal-active')
+const showModalContact = () => {
+    contactModal.classList.add('modal-active')
 }
-BtnProjects.addEventListener('click', () => {
-    ProjectsModal.classList.add('modal-active')
+btnProjects.addEventListener('click', () => {
+    projectsModal.classList.add('modal-active')
 })
-BtnModalProjectClose.addEventListener('click', () => {
-    ProjectsModal.classList.remove('modal-active')
+btnModalProjectClose.addEventListener('click', () => {
+    projectsModal.classList.remove('modal-active')
 })
-BtnContact.addEventListener('click', ShowModalContact)
-BtnEmail.addEventListener('click', ShowModalContact)
-ContactBtnClose.addEventListener('click', () => {
-    ContactModal.classList.remove('modal-active')
+btnContact.addEventListener('click', ShowModalContact)
+btnEmail.addEventListener('click', ShowModalContact)
+contactBtnClose.addEventListener('click', () => {
+    contactModal.classList.remove('modal-active')
 })
