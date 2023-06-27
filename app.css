@@ -228,7 +228,7 @@ html {
   transition: .2s ease-in-out;
   border-radius: 17px;
   cursor: pointer;
- 
+  margin: 10px;
   text-align: center;
  
   
